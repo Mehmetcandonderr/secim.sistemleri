@@ -15,7 +15,7 @@ Bu Python projesi, Türkiye'de yapılan milletvekili seçimlerini iki farklı da
 
 ---
 
-## 🧠 Temel Bileşenler
+##  Temel Bileşenler
 
 - `secim.csv`: İllere göre partilerin aldığı oylar  
 - `SecilenAdaylar.csv`: İllere göre vekil kontenjanları  
@@ -25,12 +25,12 @@ Bu Python projesi, Türkiye'de yapılan milletvekili seçimlerini iki farklı da
 
 ---
 
-## 🔍 Örnek Çıktılar
+##  Örnek Çıktılar
 
 ### İl Bazında Karşılaştırma
 
 ```
-🏙️ MERSİN
+ MERSİN
 Toplam MV: 13
 D'Hondt: {'AK PARTİ': 4, 'CHP': 5, 'MHP': 1, 'YSP': 3}
 Sainte-Laguë: {'AK PARTİ': 3, 'CHP': 6, 'MHP': 1, 'YSP': 3}
@@ -51,13 +51,13 @@ YSP                          61               68         +7
 ...
 ```
 
-### 🎯 Grafik
+###  Grafik
 
 - Her parti için iki sistem arasındaki farklar bar grafiğiyle görselleştirilir.
 
 ---
 
-## 🚀 Nasıl Çalıştırılır?
+##  Nasıl Çalıştırılır?
 
 1. Gerekli kütüphaneleri yükleyin:
    pip install pandas matplotlib
@@ -70,14 +70,12 @@ YSP                          61               68         +7
 
 ---
 
-## 📌 Notlar
+##  Notlar
 
 - Veriler 2023 Türkiye seçim sonuçlarından alınmıştır.
 - Sainte-Laguë sistemi küçük ve orta ölçekli partilere daha fazla şans tanırken, D’Hondt büyük partilere avantaj sağlar.
 - Kod, görselleştirme ve karşılaştırma amacıyla akademik kullanıma uygundur. Gerçek resmi sonuçlar için YSK kaynakları esas alınmalıdır.
 
 ---
-
-## 📄 Lisans
 
 Bu proje kişisel, akademik ve görsel analiz amacıyla paylaşılmıştır. Herhangi bir siyasi kurumla bağlantısı yoktur.
